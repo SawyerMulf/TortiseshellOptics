@@ -124,3 +124,88 @@ nav p {
 nav {
   display: flex;
 }
+
+#menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  header {
+    top: 0;
+    width: 100%;
+  }
+
+  .main {
+    height: 22rem;
+  }
+
+  .mainText {
+    top: 5rem;
+    font-size: 1.33rem;
+    padding: .75rem 4rem;
+    right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .mainText {
+    top: 9rem;
+    padding: 1rem 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .navItem {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  .middle {
+    margin: 3.77rem 0;
+    font-size: .77rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .middleContent p {
+    margin-top: .5rem;
+  }
+
+  #fittings {
+    margin: 1.54rem 0;
+  }
+
+  .info {
+    flex-direction: column;
+    font-size: .77rem;
+  }
+
+  .infoContent {
+    margin: 0;
+    width: 100%;
+  }
+
+  .infoTitle {
+    width: 100%;
+  }
+
+  #philosophy {
+    margin-bottom: 4rem;
+  }
+}
